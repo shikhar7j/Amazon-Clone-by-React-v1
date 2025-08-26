@@ -1,0 +1,113 @@
+
+.navbar {
+  height: 60px;
+  background-color: #084085;
+  display: flex;
+  align-items: center;
+  padding: 10 24px;
+  margin: 0px;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.centerSection {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.searchLanguageGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 2;
+  gap: 2px;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  width: 750px;
+  min-width: 750px;
+  max-width: 750px;
+}
+
+.LocationContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.amazonLogo {
+  height: 60px;
+  margin: 0px;
+  width: 120px;
+  mix-blend-mode: multiply;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logoContainer {
+  height: 60px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.locationIcon {
+  color: white;
+  font-size: 24px;
+  margin-left: 5px;
+}
+.dropdown {
+  background-color: #fff;
+  color: #232f3e;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 20px;
+  color: white;
+  margin-left: 8px;
+}
+.orders{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.cartCount{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ff3838;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  z-index: 2;
+  min-width: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+

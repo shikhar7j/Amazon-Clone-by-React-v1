@@ -1,0 +1,20 @@
+.LanguageContainer {
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+.languageSelector {
+    margin-left: 10px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.languageSelector select {
+    height: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
